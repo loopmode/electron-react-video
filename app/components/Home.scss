@@ -12,3 +12,15 @@
 .container a {
   font-size: 1.4rem;
 }
+
+.container nav {
+  display: flex;
+  a + a {
+    margin-left: 10px;
+    &:before {
+      content: '|';
+      margin-right: 10px;
+    }
+  }
+}
+

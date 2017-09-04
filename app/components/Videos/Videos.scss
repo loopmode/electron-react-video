@@ -1,0 +1,13 @@
+.container {
+}
+.videos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.videos :global(.Video) {
+  width: 320px;
+  height: 180px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
